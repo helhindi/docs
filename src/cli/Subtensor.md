@@ -141,10 +141,10 @@ Update Subtensor:
 
 
 ```bash
-#Bring Subtensor down
-sudo docker-compose down
 #Connect to directory
 cd ~/.bittensor/subtensor
+#Bring Subtensor down
+sudo docker-compose down
 #update Subtensor
 sudo git pull
 #Bring Subtensor back up 
